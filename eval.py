@@ -4,7 +4,7 @@ import torchvision.transforms as transforms
 from CNN_training import CNN
 
 model = CNN()
-model = torch.load('digit_classifier_v6CNN.pt')
+model = torch.load('digit_classifier_v6.pt')
 model.train(mode = False)
 
 #Defining a transformation pipeline using transforms.Compose() to convert images to tensors and normalize them.
