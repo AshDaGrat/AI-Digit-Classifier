@@ -1,12 +1,13 @@
 import numpy as np
 import tkinter as tk
 import torch
+#from CNN_training import CNN
 
 def main():
     global grid
     grid = np.zeros((28,28))
 
-    model = torch.load('digit_classifier_v4.pt')
+    model = torch.load('models/digit_classifier_v6.pt')
 
     # Create a tkinter window
     window = tk.Tk()
@@ -94,20 +95,28 @@ def main():
 
         print(pred_label)
 
+
     # Bind the mouse events
     canvas.bind("<B1-Motion>", draw_pixel)
 
+
+    #RESET BUTTON
     button = tk.Button(window, text="reset", command=reset)
     button.config(bg='black', fg='white')
     button.pack()
 
+
+    #FIND BUTTON
     button2 = tk.Button(window, text="find", command=find)
     button2.config(bg='black', fg='white')
     button2.pack()
 
+
     # Pack the canvas into the window and start the main loop
     canvas.pack()
     window.mainloop()
+
+
 
 if __name__ == '__main__':
     main()

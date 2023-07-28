@@ -1,5 +1,0 @@
-v1 - batch_size=64, epochs=15, hidden_sizes = [128, 64]
-v2 - batch_size=64, epochs=10, hidden_sizes = [128, 64]
-v3 - batch_size=64, epochs=25, hidden_sizes = [128, 64]
-v4 - batch_size=128, epochs=25, hidden_sizes = [128, 64]
-v5 - batch_size=128, epochs=25, hidden_sizes = [256, 128, 64]
