@@ -49,3 +49,4 @@ After clicking the "find" button, the neural netowork's prediction is outputed i
 1. Output in GUI and not in console
 2. Live guess updation as user draws digit
 3. Output confidence of guess
+4. Convolutional Neural Networks for better accuracy
