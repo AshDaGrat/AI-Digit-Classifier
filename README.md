@@ -45,6 +45,8 @@ This creates a simple GUI using Tkinter to draw digits and then uses a pre-train
 
 After clicking the "find" button, the neural netowork's prediction is outputed in the console. 
 
+<br>
+
 # TODO
 1. Output in GUI and not in console
 2. Live guess updation as user draws digit
